@@ -328,8 +328,9 @@ header ul li a:hover {
   border-radius: 30px;
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
+  outline: none;
 }
-/* line 217, ../sass/screen.sass */
+/* line 218, ../sass/screen.sass */
 .buy .form-buy button {
   position: absolute;
   right: 3px;
@@ -346,12 +347,16 @@ header ul li a:hover {
   border-radius: 40px;
   cursor: pointer;
 }
+/* line 233, ../sass/screen.sass */
+.buy .form-buy button i {
+  margin-left: 10px;
+}
 
-/* line 232, ../sass/screen.sass */
+/* line 235, ../sass/screen.sass */
 .download {
   padding: 60px 0;
 }
-/* line 234, ../sass/screen.sass */
+/* line 237, ../sass/screen.sass */
 .download .btn-dark {
   background-color: black;
   color: white;
@@ -364,16 +369,16 @@ header ul li a:hover {
   border: 1px solid rgba(38, 39, 45, 0.1);
   border-radius: 30px;
 }
-/* line 245, ../sass/screen.sass */
+/* line 248, ../sass/screen.sass */
 .download .btn-dark i {
   position: relative;
   top: 2px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
-/* line 249, ../sass/screen.sass */
+/* line 252, ../sass/screen.sass */
 .download .btn-dark span {
   position: relative;
-  top: 7px;
+  top: 8px;
   font-size: 14px;
   display: inline-block;
   text-align: left;
