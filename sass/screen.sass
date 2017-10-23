@@ -17,9 +17,8 @@ body
 	width: 100%
 header
 	background: url(../images/banner_background.jpg)
-	box-shadow: 0 0 4px rgba(0,0,0,0.5)
 	height: auto
-#main-nav
+.main-nav
 	position: fixed
 	left: 0
 	top: 0
@@ -27,6 +26,8 @@ header
 	font-size: 16px
 	z-index: 10
 	background-color: transparent
+.main-nav.stickytop
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
 header ul li
 	display: inline
 	margin-left: 30px
@@ -260,5 +261,70 @@ header ul li
 		font-size: 14px
 		display: inline-block
 		text-align: left
-.customers
+#customers
 	padding: 120px 0
+#customers i
+	color: #8c8f94
+	font-size: 22px
+#customers .star-rating
+	margin-top: 17px
+#customers .star-rating .gold-star
+	color: #f2bc3b
+#customers .customer-name
+	margin-top: 56px
+	font-size: 12px
+	font-weight: 700
+	text-transform: uppercase
+	letter-spacing: 0.1em
+	color: #26272d
+#customers .testimonial 
+	padding-top: 174px
+#customers .carousel-indicators
+	position: absolute
+	top: 0
+	bottom: auto
+	width: 100%
+	z-index: 5
+	left: 0
+	margin-left: 0
+#customers .carousel-indicators li
+	width: 130px
+	height: 130px
+	border-radius: 0
+	margin: 0
+	border: none
+	opacity: .2
+	transform: scale(0.7)
+	-ms-transform: scale(0.7)
+	-webkit-transform: scale(0.7)
+	transition: all 0.97s cubic-bezier(0.545, 0, 0.05, 1)
+
+#customers .carousel-indicators li img 
+	position: relative
+	border-radius: 100%
+	z-index: 2
+	box-shadow: 0px 12px 30px 0px rgba(92, 95, 101, 0.18)
+#customers .carousel-indicators li:first-child
+	float: left
+#customers .carousel-indicators li:first-child img 
+	box-shadow: 10px 12px 30px 0px rgba(92, 95, 101, 0.18)
+#customers .carousel-indicators li:last-child
+	float: right
+#customers .carousel-indicators li:last-child img 
+	box-shadow: -10px 12px 30px 0px rgba(92, 95, 101, 0.18)
+#customers .carousel-indicators li.active 
+	transform: scale(1)
+	-ms-transform: scale(1)
+	-webkit-transform: scale(1)
+	opacity: 1
+#customers .carousel-control.left,
+#customers .carousel-control.right 
+	background: none
+	width: 41px
+	height: 41px
+	top: 45px
+	line-height: 41px
+#customers .carousel-control.left
+	left: -100px
+#customers .carousel-control.right
+	right: -100px

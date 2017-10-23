@@ -17,12 +17,11 @@ body {
 /* line 18, ../sass/screen.sass */
 header {
   background: url(../images/banner_background.jpg);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   height: auto;
 }
 
-/* line 22, ../sass/screen.sass */
-#main-nav {
+/* line 21, ../sass/screen.sass */
+.main-nav {
   position: fixed;
   left: 0;
   top: 0;
@@ -32,38 +31,43 @@ header {
   background-color: transparent;
 }
 
-/* line 30, ../sass/screen.sass */
+/* line 29, ../sass/screen.sass */
+.main-nav.stickytop {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* line 31, ../sass/screen.sass */
 header ul li {
   display: inline;
   margin-left: 30px;
 }
-/* line 33, ../sass/screen.sass */
+/* line 34, ../sass/screen.sass */
 header ul li a {
   font-size: 16px;
   color: black;
 }
-/* line 36, ../sass/screen.sass */
+/* line 37, ../sass/screen.sass */
 header ul li a:hover {
   text-decoration: none;
   color: gray;
 }
 
-/* line 39, ../sass/screen.sass */
+/* line 40, ../sass/screen.sass */
 .logo {
   margin: 10px 0;
 }
 
-/* line 41, ../sass/screen.sass */
+/* line 42, ../sass/screen.sass */
 .navigation {
   padding: 10px 0;
 }
 
-/* line 43, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 .navbar ul {
   margin: 0;
 }
 
-/* line 45, ../sass/screen.sass */
+/* line 46, ../sass/screen.sass */
 .blue-btn {
   background-color: #267df4;
   color: white;
@@ -75,7 +79,7 @@ header ul li a:hover {
   border-radius: 30px;
 }
 
-/* line 54, ../sass/screen.sass */
+/* line 55, ../sass/screen.sass */
 .home {
   background: url(../images/banner_background.jpg) no-repeat center center;
   background-size: cover;
@@ -84,18 +88,18 @@ header ul li a:hover {
   padding: 150px 0;
   position: relative;
 }
-/* line 61, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
 .home .text-tittle {
   text-align: center;
   padding: 0 200px;
 }
-/* line 64, ../sass/screen.sass */
+/* line 65, ../sass/screen.sass */
 .home .text-tittle h1 {
   font-size: 62px;
   font-family: Roboto, sans-serif;
   font-weight: 400;
 }
-/* line 68, ../sass/screen.sass */
+/* line 69, ../sass/screen.sass */
 .home .text-tittle p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -103,7 +107,7 @@ header ul li a:hover {
   padding: 40px 0;
   color: gray;
 }
-/* line 74, ../sass/screen.sass */
+/* line 75, ../sass/screen.sass */
 .home .text-tittle a {
   color: black;
   font-size: 16px;
@@ -113,83 +117,83 @@ header ul li a:hover {
   border: 1px solid gray;
   border-radius: 30px;
 }
-/* line 82, ../sass/screen.sass */
+/* line 83, ../sass/screen.sass */
 .home .text-tittle img {
   margin: 90px 0;
 }
 
-/* line 84, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 .features {
   background: url(../images/Divdier.jpg) no-repeat center center;
   background-size: cover;
   padding: 118px 0;
 }
-/* line 88, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 .features .feature-1 h3 {
   font-weight: 300;
   font-size: 26px;
   padding: 20px 0;
 }
-/* line 92, ../sass/screen.sass */
+/* line 93, ../sass/screen.sass */
 .features .feature-1 p {
   font-weight: 400;
   font-size: 18px;
   color: gray;
 }
 
-/* line 96, ../sass/screen.sass */
+/* line 97, ../sass/screen.sass */
 .iphone-feature {
   position: relative;
   padding: 240px 0 330px;
 }
 
-/* line 99, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 .col-md-offset-7 {
   margin-left: 58.33333%;
 }
-/* line 101, ../sass/screen.sass */
+/* line 102, ../sass/screen.sass */
 .col-md-offset-7 h2 {
   font-family: Varela Round, sans-serif;
   font-weight: 400;
   font-size: 42px;
 }
-/* line 105, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 .col-md-offset-7 p {
   color: gray;
   font-size: 16px;
   font-family: Arial, sans-serif;
 }
 
-/* line 109, ../sass/screen.sass */
+/* line 110, ../sass/screen.sass */
 .iphone-feature .btns-container {
   margin-top: 62px;
 }
 
-/* line 111, ../sass/screen.sass */
+/* line 112, ../sass/screen.sass */
 .iphone-feature .btns-container a {
   margin-right: 20px;
   margin-bottom: 18px;
 }
 
-/* line 114, ../sass/screen.sass */
+/* line 115, ../sass/screen.sass */
 .iphone-feature .btns-container a i {
   margin-left: 50px;
   font-size: 14px;
 }
 
-/* line 117, ../sass/screen.sass */
+/* line 118, ../sass/screen.sass */
 .iphone-feature .btns-container a:last-child {
   margin-right: 0;
 }
 
-/* line 119, ../sass/screen.sass */
+/* line 120, ../sass/screen.sass */
 .iphone-feature .iphone-showcase {
   position: absolute;
   bottom: 90px;
   right: 50%;
 }
 
-/* line 123, ../sass/screen.sass */
+/* line 124, ../sass/screen.sass */
 .btn-blue {
   background-color: #267df4;
   color: white;
@@ -202,13 +206,13 @@ header ul li a:hover {
   border-radius: 40px;
 }
 
-/* line 133, ../sass/screen.sass */
+/* line 134, ../sass/screen.sass */
 .btn-blue:hover {
   text-decoration: none;
   color: white;
 }
 
-/* line 136, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
 .btn-more {
   color: black;
   font-size: 16px;
@@ -220,62 +224,62 @@ header ul li a:hover {
   opacity: 0.7;
 }
 
-/* line 145, ../sass/screen.sass */
+/* line 146, ../sass/screen.sass */
 .btn-more:hover {
   text-decoration: none;
   color: black;
 }
 
-/* line 148, ../sass/screen.sass */
+/* line 149, ../sass/screen.sass */
 .map-feature {
   padding: 60px 0 330px;
   overflow: hidden;
   position: relative;
 }
-/* line 152, ../sass/screen.sass */
+/* line 153, ../sass/screen.sass */
 .map-feature .map-text h2 {
   font-family: Varela Round, sans-serif;
   font-weight: 400;
   font-size: 42px;
 }
-/* line 156, ../sass/screen.sass */
+/* line 157, ../sass/screen.sass */
 .map-feature .map-text p {
   color: gray;
   font-size: 16px;
   font-family: Arial, sans-serif;
 }
-/* line 160, ../sass/screen.sass */
+/* line 161, ../sass/screen.sass */
 .map-feature .map-text span {
   text-transform: uppercase;
   font-family: Lato, sans-serif;
   font-size: 12px;
 }
-/* line 164, ../sass/screen.sass */
+/* line 165, ../sass/screen.sass */
 .map-feature .map-text img {
   padding: 20px;
 }
 
-/* line 166, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 .map-globe {
   position: absolute;
   bottom: 180px;
   left: 50%;
 }
 
-/* line 170, ../sass/screen.sass */
+/* line 171, ../sass/screen.sass */
 .tittle-beautiful h1 {
   font-family: Varela Round, sans-serif;
   font-size: 42px;
 }
 
-/* line 173, ../sass/screen.sass */
+/* line 174, ../sass/screen.sass */
 .tittle-beautiful hr {
   width: 5%;
   height: 2px;
   background-color: #267df4;
 }
 
-/* line 177, ../sass/screen.sass */
+/* line 178, ../sass/screen.sass */
 .tittle-beautiful p {
   text-transform: uppercase;
   font-family: Lato, sans-serif;
@@ -283,7 +287,7 @@ header ul li a:hover {
   color: gray;
 }
 
-/* line 182, ../sass/screen.sass */
+/* line 183, ../sass/screen.sass */
 .iphone-screen {
   padding: 140px 0px;
   position: relative;
@@ -291,42 +295,42 @@ header ul li a:hover {
   overflow: hidden;
 }
 
-/* line 187, ../sass/screen.sass */
+/* line 188, ../sass/screen.sass */
 .screen-list {
   width: 160%;
   margin-left: -330px;
 }
-/* line 190, ../sass/screen.sass */
+/* line 191, ../sass/screen.sass */
 .screen-list ul li {
   list-style: none;
   display: inline;
 }
 
-/* line 193, ../sass/screen.sass */
+/* line 194, ../sass/screen.sass */
 .buy {
   background-color: #f4f4f5;
 }
-/* line 196, ../sass/screen.sass */
+/* line 197, ../sass/screen.sass */
 .buy .ready-buy p {
   text-transform: uppercase;
   font-family: Lato, sans-serif;
   font-size: 12px;
   color: gray;
 }
-/* line 201, ../sass/screen.sass */
+/* line 202, ../sass/screen.sass */
 .buy .ready-buy h1 {
   font-family: Varela Round, sans-serif;
   font-size: 42px;
   margin: 30px 0;
 }
-/* line 205, ../sass/screen.sass */
+/* line 206, ../sass/screen.sass */
 .buy .ready-to-buy {
   position: relative;
   width: 502px;
   max-width: 100%;
   margin: 0 auto;
 }
-/* line 210, ../sass/screen.sass */
+/* line 211, ../sass/screen.sass */
 .buy .form-buy input {
   width: 502px;
   height: 50px;
@@ -341,7 +345,7 @@ header ul li a:hover {
   -webkit-border-radius: 30px;
   outline: none;
 }
-/* line 223, ../sass/screen.sass */
+/* line 224, ../sass/screen.sass */
 .buy .form-buy button {
   position: absolute;
   right: 3px;
@@ -358,16 +362,16 @@ header ul li a:hover {
   border-radius: 40px;
   cursor: pointer;
 }
-/* line 238, ../sass/screen.sass */
+/* line 239, ../sass/screen.sass */
 .buy .form-buy button i {
   margin-left: 10px;
 }
 
-/* line 240, ../sass/screen.sass */
+/* line 241, ../sass/screen.sass */
 .download {
   padding: 60px 0;
 }
-/* line 242, ../sass/screen.sass */
+/* line 243, ../sass/screen.sass */
 .download .btn-dark {
   background-color: black;
   color: white;
@@ -380,13 +384,13 @@ header ul li a:hover {
   border: 1px solid rgba(38, 39, 45, 0.1);
   border-radius: 30px;
 }
-/* line 253, ../sass/screen.sass */
+/* line 254, ../sass/screen.sass */
 .download .btn-dark i {
   position: relative;
   top: 2px;
   margin: 0 10px;
 }
-/* line 257, ../sass/screen.sass */
+/* line 258, ../sass/screen.sass */
 .download .btn-dark span {
   position: relative;
   top: 8px;
@@ -395,7 +399,119 @@ header ul li a:hover {
   text-align: left;
 }
 
-/* line 263, ../sass/screen.sass */
-.customers {
+/* line 264, ../sass/screen.sass */
+#customers {
   padding: 120px 0;
+}
+
+/* line 266, ../sass/screen.sass */
+#customers i {
+  color: #8c8f94;
+  font-size: 22px;
+}
+
+/* line 269, ../sass/screen.sass */
+#customers .star-rating {
+  margin-top: 17px;
+}
+
+/* line 271, ../sass/screen.sass */
+#customers .star-rating .gold-star {
+  color: #f2bc3b;
+}
+
+/* line 273, ../sass/screen.sass */
+#customers .customer-name {
+  margin-top: 56px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #26272d;
+}
+
+/* line 280, ../sass/screen.sass */
+#customers .testimonial {
+  padding-top: 174px;
+}
+
+/* line 282, ../sass/screen.sass */
+#customers .carousel-indicators {
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  width: 100%;
+  z-index: 5;
+  left: 0;
+  margin-left: 0;
+}
+
+/* line 290, ../sass/screen.sass */
+#customers .carousel-indicators li {
+  width: 130px;
+  height: 130px;
+  border-radius: 0;
+  margin: 0;
+  border: none;
+  opacity: 0.2;
+  transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  transition: all 0.97s cubic-bezier(0.545, 0, 0.05, 1);
+}
+
+/* line 302, ../sass/screen.sass */
+#customers .carousel-indicators li img {
+  position: relative;
+  border-radius: 100%;
+  z-index: 2;
+  box-shadow: 0px 12px 30px 0px rgba(92, 95, 101, 0.18);
+}
+
+/* line 307, ../sass/screen.sass */
+#customers .carousel-indicators li:first-child {
+  float: left;
+}
+
+/* line 309, ../sass/screen.sass */
+#customers .carousel-indicators li:first-child img {
+  box-shadow: 10px 12px 30px 0px rgba(92, 95, 101, 0.18);
+}
+
+/* line 311, ../sass/screen.sass */
+#customers .carousel-indicators li:last-child {
+  float: right;
+}
+
+/* line 313, ../sass/screen.sass */
+#customers .carousel-indicators li:last-child img {
+  box-shadow: -10px 12px 30px 0px rgba(92, 95, 101, 0.18);
+}
+
+/* line 315, ../sass/screen.sass */
+#customers .carousel-indicators li.active {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  opacity: 1;
+}
+
+/* line 320, ../sass/screen.sass */
+#customers .carousel-control.left,
+#customers .carousel-control.right {
+  background: none;
+  width: 41px;
+  height: 41px;
+  top: 45px;
+  line-height: 41px;
+}
+
+/* line 327, ../sass/screen.sass */
+#customers .carousel-control.left {
+  left: -100px;
+}
+
+/* line 329, ../sass/screen.sass */
+#customers .carousel-control.right {
+  right: -100px;
 }
