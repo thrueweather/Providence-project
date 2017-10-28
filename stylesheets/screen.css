@@ -829,7 +829,127 @@ header li {
   margin-left: 10px;
 }
 
-/* line 556, ../sass/screen.sass */
+/* line 557, ../sass/screen.sass */
+footer .text-socials img {
+  padding: 20px 0;
+}
+/* line 559, ../sass/screen.sass */
+footer .text-socials p {
+  width: 50%;
+  color: gray;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* line 565, ../sass/screen.sass */
 .download2 {
   padding: 0;
+}
+
+/* line 567, ../sass/screen.sass */
+.download3 {
+  padding: 20px 0;
+}
+/* line 569, ../sass/screen.sass */
+.download3 .btn-dark3 {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  padding: 16px 10px;
+  text-decoration: none;
+  border: 1px solid rgba(38, 39, 45, 0.1);
+  border-radius: 10px;
+}
+/* line 581, ../sass/screen.sass */
+.download3 .btn-dark3 i {
+  position: relative;
+  top: 2px;
+  margin: 0 10px;
+}
+/* line 585, ../sass/screen.sass */
+.download3 .btn-dark3 span {
+  position: relative;
+  top: 8px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: left;
+}
+
+/* line 592, ../sass/screen.sass */
+.social-ikons ul {
+  padding: 0;
+}
+/* line 594, ../sass/screen.sass */
+.social-ikons ul a li {
+  display: inline;
+}
+/* line 596, ../sass/screen.sass */
+.social-ikons i {
+  color: gray;
+  font-size: 20px;
+  padding: 20px 10px;
+}
+
+/* line 600, ../sass/screen.sass */
+.menu-1, .menu-2, .menu-3 {
+  margin: 0 20px;
+  padding: 0;
+}
+/* line 603, ../sass/screen.sass */
+.menu-1 h3, .menu-2 h3, .menu-3 h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: black;
+  font-family: Lato, sans-serif;
+  font-weight: 500;
+}
+/* line 609, ../sass/screen.sass */
+.menu-1 ul, .menu-2 ul, .menu-3 ul {
+  padding: 0;
+}
+/* line 611, ../sass/screen.sass */
+.menu-1 ul a li, .menu-2 ul a li, .menu-3 ul a li {
+  list-style: none;
+  padding: 5px 0;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+
+/* line 617, ../sass/screen.sass */
+.copyrights {
+  padding: 10px 0;
+}
+/* line 619, ../sass/screen.sass */
+.copyrights p {
+  width: 290px;
+  float: left;
+  margin: 15px 0;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+/* line 626, ../sass/screen.sass */
+.copyrights p a {
+  cursor: pointer;
+}
+/* line 628, ../sass/screen.sass */
+.copyrights h3 {
+  float: right;
+  width: 90px;
+  margin: 15px 20px;
+  font-family: Lato, sans-serif;
+  font-size: 9px;
+  color: black;
+  text-transform: uppercase;
+}
+/* line 636, ../sass/screen.sass */
+.copyrights img {
+  float: right;
+  margin: 0;
 }
