@@ -1,0 +1,50 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	.home .text-tittle h1 {
+	    font-size: 46px;
+	}
+	.home .text-tittle p {
+	    font-size: 16px;
+	}
+	.screen-list {
+	    width: 200%;
+	    margin-left: -420px
+	}
+	.plan-card {
+	    margin-left: 160px;
+	}
+	.menu-1, .menu-2, .menu-3 {
+	    margin: 0;
+	    padding: 0;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	
+}
+
+
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	
+}
