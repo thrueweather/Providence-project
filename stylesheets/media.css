@@ -77,9 +77,74 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-	
+	.home .text-tittle h1 {
+	    font-size: 44px;
+	}
+	.home .text-tittle p {
+	    font-size: 14px;
+	}
+	.home .text-tittle a {
+	    font-size: 14px;
+	    padding: 12px 20px;   
+	}
+	.feature-1 {
+		padding: 20px 0;
+		text-align: center;
+	}
+	.col-md-offset-7 {
+		text-align: center;
+	    margin-left: 0;
+	}
+	.iphone-feature {
+		position: relative;
+	    padding: 0;
+	    height: 1000px;
+	}
+	.iphone-feature .iphone-showcase {
+	    position: absolute;
+	    bottom: 0;
+	    right: 0;
+	}
+	.device img {
+		width: 100%;
+	}
+	.map-globe {
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	}
+	.map-text {
+		text-align: center;
+	}
+	.map img {
+		width: 100%;
+	}
+	.iphone-screen {
+	    padding: 50px 0px;
+	    position: relative;
+	    background-color: #f4f4f5;
+	}
+	.screen-list {
+	    width: 100%;
+	    margin: 0 19%;
+	}
+	.main-screen {
+	    margin: 0;
+	    margin-left: -35px;
+	}
+	.screen-list ul {
+		padding: 0;
+	}
+	.plan-text {
+		text-align: center;
+	}
+	#plan .toggle-container {
+	    margin-bottom: 20px;
+	}
+	#plan .toggle-container .switch-toggles {
+		margin: 0 auto;
+	}
 }
-
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
