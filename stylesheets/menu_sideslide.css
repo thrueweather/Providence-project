@@ -8,15 +8,31 @@ body,
 
 .menu-wrap a {
 	color: white;
+	outline: none;
 }
 
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-	color: #c94e50;
+	color: gray;
+	text-decoration: none;
+	outline: none;
+}
+.social-ikon {
+	margin: 60px 0;
+}
+.social-ikon a  {
+	font-size: 18px;
+}
+.social-ikon a li {
+	padding: 0 11px; 
+}
+.social-ikon p {
+	color: white;
+	font-size: 12px;
 }
 .content {
 	position: relative;
-	background: #b4bad2;
+	background: black;
 }
 
 .content::before {
@@ -88,7 +104,7 @@ body,
 	height: 100%;
 	top: 0;
 	left: 50%;
-	background: black;
+	background: white;
 }
 
 .close-button::before {
@@ -107,8 +123,8 @@ body,
 	z-index: 99999;
 	width: 300px;
 	height: auto;
-    background: #373a47;
-	padding: 2.5em 1.5em 2.5em;
+    background: black;
+	padding: 2.5em 1.5em 0em;
 	font-size: 1.15em;
 	-webkit-transform: translate3d(-320px,0,0);
 	transform: translate3d(-320px,0,0);
@@ -116,6 +132,10 @@ body,
 	transition: transform 0.4s;
 	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.menu-wrap img {
+	margin: 40px 0;
 }
 
 .menu, 
@@ -130,7 +150,7 @@ body,
 
 .icon-list a {
 	display: block;
-	padding: 0.8em;
+	padding: 0.3em;
 	-webkit-transform: translate3d(0,500px,0);
 	transform: translate3d(0,500px,0);
 }
