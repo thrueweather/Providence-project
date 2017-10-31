@@ -24,8 +24,45 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
-
-
+	.home .text-tittle {
+	    text-align: center;
+	    padding: 0;
+	}
+	.features {
+		padding: 20px 0;
+	}
+	.feature-1 {
+		padding: 20px 0;
+	}
+	.btn-more {
+		padding: 10px;
+	}
+	.map-feature .map-text img {
+	    padding: 10px;
+	}
+	.screen-list {
+	    width: 100%;
+	    margin-left: -16px;
+	}
+	.main-screen {
+		margin: 0 127px;
+	}
+	.buy {
+		padding: 20px 0;
+	}
+	.download {
+	    padding: 20px 0;
+	}
+	.plan-card {
+	    margin-left: 0;
+	}
+	.plan-1, .plan-2{
+		float: left;
+		margin: 40px 0;
+	}
+	.plan-2 {
+		height: 565px;
+	}
 }
 
 
