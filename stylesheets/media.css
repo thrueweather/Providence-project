@@ -34,6 +34,9 @@
 	.feature-1 {
 		padding: 20px 0;
 	}
+	.col-md-offset-7 {
+	    margin-left: 50%;
+	}
 	.btn-more {
 		padding: 10px;
 	}
@@ -46,6 +49,12 @@
 	}
 	.main-screen {
 		margin: 0 127px;
+	}
+	#customers .carousel-control.left {
+	    left: 0;
+	}
+	#customers .carousel-control.right {
+	    right: 0;
 	}
 	.buy {
 		padding: 20px 0;
