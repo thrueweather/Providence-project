@@ -24,6 +24,15 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+	.main-nav {
+		height: 60px;
+	}
+	.barnav {
+		display: none;
+	}
+	.logo {
+		display: none;
+	}
 	.home .text-tittle {
 	    text-align: center;
 	    padding: 0;
