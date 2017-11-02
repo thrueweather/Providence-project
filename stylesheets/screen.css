@@ -830,11 +830,15 @@ header li {
   margin-left: 10px;
 }
 
-/* line 558, ../sass/screen.sass */
+/* line 557, ../sass/screen.sass */
+footer {
+  border-top: 1px solid rgba(38, 39, 45, 0.1);
+}
+/* line 559, ../sass/screen.sass */
 footer .text-socials img {
   padding: 20px 0;
 }
-/* line 560, ../sass/screen.sass */
+/* line 561, ../sass/screen.sass */
 footer .text-socials p {
   width: 50%;
   color: gray;
@@ -843,16 +847,16 @@ footer .text-socials p {
   font-size: 14px;
 }
 
-/* line 566, ../sass/screen.sass */
+/* line 567, ../sass/screen.sass */
 .download2 {
   padding: 0;
 }
 
-/* line 568, ../sass/screen.sass */
+/* line 569, ../sass/screen.sass */
 .download3 {
   padding: 20px 0;
 }
-/* line 570, ../sass/screen.sass */
+/* line 571, ../sass/screen.sass */
 .download3 .btn-dark3 {
   background-color: black;
   color: white;
@@ -866,13 +870,13 @@ footer .text-socials p {
   border: 1px solid rgba(38, 39, 45, 0.1);
   border-radius: 10px;
 }
-/* line 582, ../sass/screen.sass */
+/* line 583, ../sass/screen.sass */
 .download3 .btn-dark3 i {
   position: relative;
   top: 2px;
   margin: 0 10px;
 }
-/* line 586, ../sass/screen.sass */
+/* line 587, ../sass/screen.sass */
 .download3 .btn-dark3 span {
   position: relative;
   top: 8px;
@@ -881,27 +885,27 @@ footer .text-socials p {
   text-align: left;
 }
 
-/* line 593, ../sass/screen.sass */
+/* line 594, ../sass/screen.sass */
 .social-ikons ul {
   padding: 0;
 }
-/* line 595, ../sass/screen.sass */
+/* line 596, ../sass/screen.sass */
 .social-ikons ul a li {
   display: inline;
 }
-/* line 597, ../sass/screen.sass */
+/* line 598, ../sass/screen.sass */
 .social-ikons i {
   color: gray;
   font-size: 20px;
   padding: 20px 10px;
 }
 
-/* line 601, ../sass/screen.sass */
+/* line 602, ../sass/screen.sass */
 .menu-1, .menu-2, .menu-3 {
   margin: 0 20px;
   padding: 0;
 }
-/* line 604, ../sass/screen.sass */
+/* line 605, ../sass/screen.sass */
 .menu-1 h3, .menu-2 h3, .menu-3 h3 {
   text-transform: uppercase;
   font-size: 16px;
@@ -909,11 +913,11 @@ footer .text-socials p {
   font-family: Lato, sans-serif;
   font-weight: 500;
 }
-/* line 610, ../sass/screen.sass */
+/* line 611, ../sass/screen.sass */
 .menu-1 ul, .menu-2 ul, .menu-3 ul {
   padding: 0;
 }
-/* line 612, ../sass/screen.sass */
+/* line 613, ../sass/screen.sass */
 .menu-1 ul a li, .menu-2 ul a li, .menu-3 ul a li {
   list-style: none;
   padding: 5px 0;
@@ -922,11 +926,11 @@ footer .text-socials p {
   color: gray;
 }
 
-/* line 618, ../sass/screen.sass */
+/* line 619, ../sass/screen.sass */
 .copyrights {
   padding: 10px 0;
 }
-/* line 620, ../sass/screen.sass */
+/* line 621, ../sass/screen.sass */
 .copyrights p {
   width: 290px;
   float: left;
@@ -935,11 +939,11 @@ footer .text-socials p {
   font-size: 14px;
   color: gray;
 }
-/* line 627, ../sass/screen.sass */
+/* line 628, ../sass/screen.sass */
 .copyrights p a {
   cursor: pointer;
 }
-/* line 629, ../sass/screen.sass */
+/* line 630, ../sass/screen.sass */
 .copyrights h3 {
   float: right;
   width: 90px;
@@ -949,7 +953,7 @@ footer .text-socials p {
   color: black;
   text-transform: uppercase;
 }
-/* line 637, ../sass/screen.sass */
+/* line 638, ../sass/screen.sass */
 .copyrights img {
   float: right;
   margin: 0;
