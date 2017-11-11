@@ -157,9 +157,62 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+	.home {
+		padding: 50px 0;
+	}
+	.menu-button {
+		text-indent: 0em;
+	}
+	.menu-wrap {
+		width: 260px
+	}
+	.menu-wrap a img {
+	    margin: 10px 0;
+	}
+	.social-ikon {
+	    margin: 20px 0;
+	}
+	.social-ikon a li {
+	    padding: 0 7px;
+	}
+	.home .text-tittle img {
+		width: 100%;
+	}
+	.home .text-tittle img {
+	    margin: 40px 0;
+	}
+	.iphone-feature .btns-container {
+	    margin-top: 32px;
+	}
+	.iphone-feature .btns-container a {
+	    margin: 0;
+	}
+	.btn-blue {
+		width: 100%;
+		display: block;
+	}
+	.btn-more {
+		width: 100%;
+		display: block;
+	}
+	.iphone-feature {
+	    height: 700px;
+	}
+	.map-feature {
+	    padding: 60px 0 180px;
+	}
+	.screen-list {
+	    width: 100%;
+	    margin: 0;
+	}
+	.screen-list ul li img {
+	    width: 100%;
+	}
+	.main-screen {
+		width: 100%;
+		margin: 0 auto;
+	}
 }
-
 @media only screen and (min-width : 768px) and (max-width: 991px) {
 	
 }
